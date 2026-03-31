@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="260" viewBox="0 0 500 260">
+  <rect width="500" height="260" rx="24" fill="#7c3aed"/>
+  <text x="85" y="120" font-size="34" font-family="Arial" fill="white">Source :</text>
+  <text x="45" y="170" font-size="34" font-family="Arial" fill="#ede9fe">Traitement d'image</text>
+</svg>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Traitement d'image</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Traitement d'image</h1>
+    <p>Lire et modifier les pixels d'une photo numérique</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="historique.html">Historique</a>
+    <a href="images-capteur.html">Images & capteur</a>
+    <a class="active" href="traitement.html">Traitement</a>
+    <a href="exif.html">EXIF</a>
+  </nav>
+
+  <main>
+    <section>
+      <span class="badge">Page 4</span>
+      <h2>Que signifie traiter une image ?</h2>
+      <img class="hero" src="images/traitement.svg" alt="Illustration du traitement d'image sur ordinateur">
+      <p>Traiter une image consiste à agir sur ses pixels. On peut lire la valeur d'un pixel, modifier ses canaux RVB, appliquer des filtres ou transformer toute une zone de l'image avec un programme.</p>
+      <p>Dans la ressource Pixees, le langage Python et la bibliothèque PIL sont utilisés pour ouvrir une image, récupérer les valeurs d'un pixel, puis en changer la couleur.</p>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h3>Exemples de traitements</h3>
+        <ul>
+          <li>Lire la couleur d'un pixel</li>
+          <li>Modifier un pixel</li>
+          <li>Parcourir toute l'image</li>
+          <li>Créer des effets de couleur</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Étapes d'un programme</h3>
+        <ol>
+          <li>Ouvrir le fichier image</li>
+          <li>Choisir un pixel avec ses coordonnées</li>
+          <li>Lire ou changer les valeurs RVB</li>
+          <li>Afficher ou enregistrer l'image modifiée</li>
+        </ol>
+      </div>
+    </section>
+
+    <section>
+      <h2>Tableau : actions possibles</h2>
+      <table>
+        <tr>
+          <th>Action</th>
+          <th>But</th>
+          <th>Exemple</th>
+        </tr>
+        <tr>
+          <td>getpixel</td>
+          <td>Lire les valeurs RVB</td>
+          <td>Connaitre la couleur d'un point</td>
+        </tr>
+        <tr>
+          <td>putpixel</td>
+          <td>Modifier un pixel</td>
+          <td>Colorier un point en rouge</td>
+        </tr>
+        <tr>
+          <td>Boucles for</td>
+          <td>Parcourir plusieurs pixels</td>
+          <td>Transformer toute l'image</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Vidéo</h2>
+      <iframe src="https://www.youtube.com/embed/NybHckSEQBI" title="Vidéo sur le traitement d'image" allowfullscreen></iframe>
+      <p>Voir aussi la page <a href="images-capteur.html">Images & capteur</a> pour comprendre d'où viennent les pixels.</p>
+      <p>Lien externe : <a href="https://pixees.fr/informatiquelycee/n_site/snt_photo_transImg.html" target="_blank">Ressource Pixees sur le traitement d'image</a>.</p>
+    </section>
+
+    <section>
+      <h2>Image cliquable</h2>
+      <a href="https://pixees.fr/informatiquelycee/n_site/snt_photo_transImg.html" target="_blank">
+        <img class="cta-image" src="images/source-traitement.svg" alt="Image menant vers la ressource de traitement d'image">
+      </a>
+      <p>Cliquer sur l'image pour consulter la ressource complète et les exemples en Python.</p>
+    </section>
+
+    <section class="source-box">
+      <h2>Sources</h2>
+      <ul>
+        <li><a href="https://pixees.fr/informatiquelycee/n_site/snt_photo_transImg.html" target="_blank">Pixees - Traitement d'image</a></li>
+      </ul>
+      <p>Le texte a été reformulé à partir du cours de référence.</p>
+    </section>
+  </main>
+
+  <footer>
+    Site SNT - Photographie numérique
+  </footer>
+</body>
+</html>

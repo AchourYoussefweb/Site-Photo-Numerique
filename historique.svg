@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500">
+  <rect width="1200" height="500" fill="#fef3c7"/>
+  <line x1="120" y1="250" x2="1080" y2="250" stroke="#92400e" stroke-width="8"/>
+  <circle cx="220" cy="250" r="28" fill="#b45309"/>
+  <circle cx="500" cy="250" r="28" fill="#d97706"/>
+  <circle cx="800" cy="250" r="28" fill="#f59e0b"/>
+  <circle cx="1000" cy="250" r="28" fill="#2563eb"/>
+  <text x="170" y="210" font-size="28" font-family="Arial" fill="#78350f">Pellicule</text>
+  <text x="430" y="210" font-size="28" font-family="Arial" fill="#78350f">Numérique</text>
+  <text x="740" y="210" font-size="28" font-family="Arial" fill="#78350f">Cartes mémoire</text>
+  <text x="930" y="210" font-size="28" font-family="Arial" fill="#1e3a8a">Smartphones</text>
+  <text x="350" y="380" font-size="42" font-family="Arial" fill="#111827">Histoire de la photo numérique</text>
+</svg>

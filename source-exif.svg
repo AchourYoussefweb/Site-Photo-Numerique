@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="260" viewBox="0 0 500 260">
+  <rect width="500" height="260" rx="24" fill="#15803d"/>
+  <text x="85" y="120" font-size="34" font-family="Arial" fill="white">Source :</text>
+  <text x="120" y="170" font-size="34" font-family="Arial" fill="#dcfce7">EXIF</text>
+</svg>
